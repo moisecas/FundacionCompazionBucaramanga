@@ -78,6 +78,28 @@ body {
  
     
   }
+  .fondodos {
+    background-color: rgba(255, 153, 51, 0.5);
+    border-radius: 0 0 10px 10px;
+    color: black;
+    
+  }
+  .botones button {
+    display: inline-block; /* Establece los botones como elementos en línea */
+    margin: 10px 60px; /* Establece el margen en 10px */
+    border-radius: auto; /* Establece el radio de las esquinas en un 50% en el eje horizontal y en un 70% en el eje vertical */
+    padding-bottom: 20px;
+    width: 200px; /* Establece el ancho del botón */
+    height: 50px; /* Establece la altura del botón */
+    
+  }
+  .botones{
+    text-align: center;
+    background-color: #2c3e50;
+    border-radius: 0 0 10px 10px;
+
+  }
+
   .descripcion {
     padding: 20px;
     background-color: transparent;
@@ -86,6 +108,19 @@ body {
     display: inline-block;
     
     
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .videos, .testimonios {
+    width: calc(50% - 10px);
+    margin: 0 5px;
   }
   
   
