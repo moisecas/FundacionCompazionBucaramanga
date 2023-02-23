@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -208,3 +209,42 @@ body {
     background-color: #2c3e50; 
   }
   
+
+  /* Estilos para pantallas grandes */
+@media only screen and (min-width: 1200px) {
+  /* Agrega estilos para la sección de videos y testimonios */
+  .videos, .testimonios {
+    width: calc(50% - 10px);
+    margin: 0 5px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+  /* Agrega estilos para la sección de videos y testimonios */
+  .videos, .testimonios {
+    width: calc(50% - 5px);
+    margin: 0 2.5px;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+  /* Cambia la dirección del flexbox en el contenedor */
+  .container {
+    flex-direction: column;
+  }
+
+  /* Agrega estilos para la sección de videos y testimonios */
+  .videos, .testimonios {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .videos, .testimonios {
+    width: 100%;
+    margin: 0;
+  }
+}
