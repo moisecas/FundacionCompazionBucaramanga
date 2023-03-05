@@ -21,6 +21,15 @@ body {
   header:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Cambia la sombra al pasar el cursor */
   }
+
+  header h5 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-top: 50px;
+
+  }
   
   .logo {
     float: left;
@@ -33,7 +42,7 @@ body {
   
   
   
-  a {
+  /* a {
     display: inline-block;
     margin: 20px;
     padding: 10px 20px;
@@ -48,7 +57,7 @@ body {
     background-color: #34495e;
   } */
   
-  a[href^="#"] {
+  /* a[href^="#"] {
     position: relative;
   }
   
@@ -67,7 +76,46 @@ body {
   
   a[href^="#"]:hover::before {
     transform: scaleX(1);
+  } */
+   */
+
+   .navbar-nav {
+    transition: all 0.3s ease;
   }
+  
+  .nav-item {
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link {
+    color: black;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    background-color: #87CEFA;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #87CEFA;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-toggler:hover .navbar-toggler-icon {
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+
+  
+  
   
   .fondo {
     background-image: url('/paz_2.jpg'); 
