@@ -34,7 +34,7 @@ body {
   .logo {
     float: left;
     margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
-    width: 250px; /* Ajusta el ancho según tus necesidades */
+    width: 350px; /* Ajusta el ancho según tus necesidades */
     height: auto;
     float: left;
   }
@@ -118,7 +118,7 @@ body {
   
   
   .fondo {
-    background-image: url('/paz_2.jpg'); 
+    background-image: url('/paz_3.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,10 +127,16 @@ body {
  
     
   }
+
+  .fondo h2 {
+    
+    color: white;
+  }
+
   .fondodos {
     background-color: rgba(255, 153, 51, 0.5);
     border-radius: 0 0 10px 10px;
-    color: black;
+    color: white;
     
   }
   .botones button {
@@ -155,6 +161,7 @@ body {
     box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.5);
     border-radius: 0 0 10px 10px; /* Redondea las esquinas inferiores */ 
     display: inline-block;
+    color: whitesmoke; 
     
     
   }
@@ -166,6 +173,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  
+  
+
+ 
   
   .videos, .testimonios {
     width: calc(50% - 10px);
