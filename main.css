@@ -38,6 +38,20 @@ body {
     height: auto;
     float: left;
   }
+
+  .foto {
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .header h6 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-top: 50px;
+  }
   
   
   
@@ -139,6 +153,17 @@ body {
     color: white;
     
   }
+
+  section.fondodos h5 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: justify;
+  }
+
+  
+
   .botones button {
     display: inline-block; /* Establece los botones como elementos en línea */
     margin: 10px 60px; /* Establece el margen en 10px */
