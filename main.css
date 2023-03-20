@@ -361,6 +361,25 @@ body {
     margin-right: 10px;
     text-align: center;
   }
+
+  .galeria-videos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .galeria-videos video {
+    width: 50%;
+    margin-right: 10px;
+  }
+
+  .galeria-videos iframe {
+    width: 600px;
+    height: 250px;
+    margin-right: 10px;
+  }
+  
+  
   
   
 
