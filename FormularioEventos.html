@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonio</title>
+    <title>Inscribase</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=NOMBRE_DE_LA_FUENTE&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./Testimonio.css">
+    <link rel="stylesheet" href="/FormEventos.css">
 </head>
 <body>
     <header>
@@ -53,32 +53,30 @@
         </div>
       </div>
     </nav>
-    </div>
-    <section class="blog">
-      <div class="containerpost">
-        <div class="post">
-          <img src="/post/yoga1.jpg" alt="Post 1">
-          <h3>Titulo del post 1</h3>
-          <p>Resumen del post 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ac lacus vel posuere. In hac habitasse platea dictumst. </p>
-          <a href="#" class="btn">Leer más</a>
-        </div>
-        <div class="post">
-          <img src="/post/yoga2.jpg" alt="Post 2">
-          <h3>Titulo del post 2</h3>
-          <p>Resumen del post 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ac lacus vel posuere. In hac habitasse platea dictumst. </p>
-          <a href="#" class="btn">Leer más</a>
-        </div>
-        <div class="post">
-          <img src="/post/yoga3.jpg" alt="Post 3">
-          <h3>Titulo del post 3</h3>
-          <p>Resumen del post 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ac lacus vel posuere. In hac habitasse platea dictumst. </p>
-          <a href="#" class="btn">Leer más</a>
-        </div>
-      </div>
-    </section>
-    
+    <h1>Formulario de registro de eventos</h1>
+	<form action="" method="post">
+		<label for="nombre">Nombre completo:</label><br>
+		<input type="text" id="nombre" name="nombre" required><br>
+
+		<label for="correo">Correo electrónico:</label><br>
+		<input type="email" id="correo" name="correo" required><br>
+
+		<label for="telefono">Teléfono:</label><br>
+		<input type="tel" id="telefono" name="telefono" required><br>
+
+		<label for="evento">Evento:</label><br>
+		<input type="text" id="evento" name="evento" required><br>
+
+		<label for="fecha">Fecha:</label><br>
+		<input type="date" id="fecha" name="fecha" required><br>
+
+		<label for="asistentes">Número de asistentes:</label><br>
+		<input type="number" id="asistentes" name="asistentes" required><br>
+
+		<input type="submit" value="Registrarse">
+	</form>
     <footer>
         <p>Derechos reservados.</p>
-    </footer>
+      </footer>
 </body>
 </html>

@@ -1,0 +1,31 @@
+.eventos-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .evento {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .evento h2 {
+    margin-top: 0;
+  }
+  
+  .btn-registrarse {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #87CEFA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .btn-registrarse:hover {
+    background-color: #6495ED;
+  }
+  
