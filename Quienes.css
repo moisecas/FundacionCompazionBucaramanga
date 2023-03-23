@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* Estilos específicos para los divs */
+  .por-que-escuela,
+  .para-quien,
+  .que-ofrece {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Añadir espacio entre los divs si están en una fila */
+  .para-quien {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  /* Media query para ajustar el diseño en dispositivos más pequeños */
+  @media screen and (max-width: 768px) {
+    .por-que-escuela,
+    .para-quien,
+    .que-ofrece {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
