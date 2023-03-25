@@ -67,12 +67,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-image: url('/paz_3.jpg'); 
+    min-height: 300vh;
+    background-image: url('/Fondos.PNG'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 300vh;
     border-radius: 0 0 50px 50px; 
   }
   
@@ -93,63 +93,9 @@ body {
   /* a:hover {
     background-color: #34495e;
   } */
-  
-  /* a[href^="#"] {
-    position: relative;
-  }
-  
-  a[href^="#"]::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #87CEFA;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s ease;
-  }
-  
-  a[href^="#"]:hover::before {
-    transform: scaleX(1);
-  } */
-   */
 
-   .navbar-nav {
-    transition: all 0.3s ease;
-  }
-  
-  .nav-item {
-    transition: all 0.3s ease;
-  }
-  
-  .nav-link {
-    color: black;
-    transition: all 0.3s ease;
-  }
-  
-  .nav-link:hover {
-    color: white;
-    background-color: #87CEFA;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar-toggler {
-    border: none;
-    background-color: transparent;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar-toggler-icon {
-    background-color: #87CEFA;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar-toggler:hover .navbar-toggler-icon {
-    background-color: white;
-    transition: all 0.3s ease;
-  }
+
+ 
 
   
   
