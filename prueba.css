@@ -1,5 +1,6 @@
 /* Estilos para el header */
 header {
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,10 +43,55 @@ header {
   }
   
   
+=======
+  background: #0077B6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  overflow: auto; /* Agrega overflow para limpiar el float */
+  border-radius: 0 0 10px 10px; /* Redondea las esquinas inferiores */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
+  transition: all 0.3s ease; /* Agrega un efecto de transición */
+  text-align: right;
+
+}
+
+
+
+header h5 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  margin-top: 50px;
+
+}
+
+.logo {
+  float: left;
+  margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
+  width: 150px; /* Ajusta el ancho según tus necesidades */
+  
+}
+
+.foto {
+  width: 5%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.header h6 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  margin-top: 50px;
+} 
+>>>>>>> a78b619095617add49cc23b3522a8627d4f139bc
   
   /* Estilos para la navegación */
   .navbar {
-    background-color: #f8f9fa;
+    background-color: gray;
   }
   
   .navbar-nav .nav-link {
@@ -77,11 +123,21 @@ header {
 
   header {
     background-color: #0077B6;
-    padding: 20px;
+    padding: 20px; 
+    display: flex;
+
+
+
   }
   
   .logo {
+<<<<<<< HEAD
     max-height: 100px;
+=======
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+>>>>>>> a78b619095617add49cc23b3522a8627d4f139bc
   }
   
   .foto {
@@ -90,6 +146,8 @@ header {
     border-radius: 50%;
     margin-top: 20px;
   }
+
+
 
   .fondo {
     display: flex;
