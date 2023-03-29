@@ -1,27 +1,47 @@
 /* Estilos para el header */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0077B6;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+}
+
+.nombre {
+  margin-right: 20px;
+}
+
+.foto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: right !important;
+  margin-right: 20px;
+}
+
   
-  .logo {
-    max-width: 100%;
-    height: auto;
-  }
+  
+  
   
   .logo-wrapper {
     text-align: center;
   }
   
-  .foto {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
+  
   
   /* Estilos para la navegación */
   .navbar {
@@ -61,7 +81,7 @@ header {
   }
   
   .logo {
-    max-height: 50px;
+    max-height: 100px;
   }
   
   .foto {
