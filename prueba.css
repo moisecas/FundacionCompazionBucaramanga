@@ -1,6 +1,5 @@
 /* Estilos para el header */
 header {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,13 +12,21 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 190px;
   height: auto;
 }
 
 .encabezado {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  
+}
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  margin-right: 20px;
 }
 
 .nombre {
@@ -30,7 +37,6 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  float: right !important;
   margin-right: 20px;
 }
 
@@ -38,61 +44,23 @@ header {
   
   
   
-  .logo-wrapper {
-    text-align: center;
-  }
+ 
   
   
-=======
-  background: #0077B6;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  overflow: auto; /* Agrega overflow para limpiar el float */
-  border-radius: 0 0 10px 10px; /* Redondea las esquinas inferiores */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
-  transition: all 0.3s ease; /* Agrega un efecto de transición */
-  text-align: right;
-
-}
-
-
-
-header h5 {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-  margin-top: 50px;
-
-}
-
-.logo {
-  float: left;
-  margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
-  width: 150px; /* Ajusta el ancho según tus necesidades */
-  
-}
-
-.foto {
-  width: 5%;
-  height: auto;
-  border-radius: 50%;
-  margin-top: 20px;
-}
-.header h6 {
-  font-size: 20px;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-  margin-top: 50px;
-} 
->>>>>>> a78b619095617add49cc23b3522a8627d4f139bc
   
   /* Estilos para la navegación */
   .navbar {
-    background-color: gray;
+    background-color: gray !important;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    width: 100%;  
+    
+
   }
+
+
+
   
   .navbar-nav .nav-link {
     color: #212529;
@@ -131,13 +99,7 @@ header h5 {
   }
   
   .logo {
-<<<<<<< HEAD
     max-height: 100px;
-=======
-    width: 200px;
-    height: auto;
-    margin-right: 20px;
->>>>>>> a78b619095617add49cc23b3522a8627d4f139bc
   }
   
   .foto {
