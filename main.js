@@ -11,8 +11,10 @@ function enviarFormulario() {
     telefono: telefono,
   };
 
+  
+
   // Enviamos los datos mediante la API Fetch de JavaScript
-  fetch('https://formspree.io/f/xgebkqyz', {
+  fetch("https://formspree.io/f/mqkoyqnd", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
