@@ -1,0 +1,25 @@
+/* Estilos para el calendario */
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    height: 600px;
+    border: none;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el texto del pie de página */
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
