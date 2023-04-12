@@ -1,100 +1,123 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Estilos para el formulario */
 .formulario {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .formulario input[type="text"],
-  .formulario input[type="email"],
-  .formulario textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: none;
-  }
-  
-  .formulario input[type="submit"] {
-    background-color: black; 
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .formulario input[type="submit"]:hover {
-    background-color: #87CEFA; 
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.formulario input[type="submit"] {
+  background-color: black; 
+  color: white;
+  padding: 0.625rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #87CEFA; 
+}
+
+/* Estilos para los botones */
+.botonestres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.botonestres button {
+  margin: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  background-color: #87CEFA;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botonestres button:hover {
+  background-color: #34495e;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+  background-color: #f2f2f2;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 1.875rem; /* 30px */
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+.contacto p {
+  font-size: 1.25rem; /* 20px */
+  margin-bottom: 2.5rem; /* 40px */
+}
+
+.botones-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.botones-contacto a {
+  display: inline-block;
+  margin: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  /* background-color: #87CEFA; */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.botones-contacto a:hover {
+  background-color: #34495e;
+}
+
+.botones-contacto img {
+  width: 1.5625rem; /* 25px */
+  height: 1.5625rem; /* 25px */
+  margin-right: 0.625rem; /* 10px */
+  text-align: center;
+}
+
+/* Media query para ajustar el diseño en dispositivos más pequeños */
+@media screen and (max-width: 768px) {
+  .formulario {
+    max-width: 100%;
   }
 
-  .botonestres {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  .formulario input[type="submit"] {
+    font-size: 1rem; /* 16px */
   }
-  
-  .botonestres button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: none;
-    background-color: #87CEFA;
-    color: white;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .botonestres button:hover {
-    background-color: #34495e;
-  }
-  
-  .contacto {
-    background-color: #f2f2f2;
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .contacto h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .contacto p {
-    font-size: 20px;
-    margin-bottom: 40px;
-  }
-  
-  .botones-contacto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-     
-  }
-  
-  .botones-contacto a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    /* background-color: #87CEFA; */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 20px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .botones-contacto a:hover {
-    background-color: #34495e;
-  }
-  .botones-contacto img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    text-align: center;
-  }
+
+ 
+}

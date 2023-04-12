@@ -1,25 +1,47 @@
 /* Estilos para el calendario */
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Estilos para el iframe */
 iframe {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    max-width: 1000px;
-    height: 600px;
-    border: none;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+  height: 600px;
+  border: none;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  margin-top: 2rem;
+}
+
+/* Estilos para el texto del pie de página */
+footer p {
+  margin: 0;
+  font-size: 0.875rem; /* 14px */
+  color: #333;
+}
+
+/* Media query para ajustar el diseño en dispositivos más pequeños */
+@media screen and (max-width: 768px) {
+  iframe {
+    height: 300px;
   }
   
-  /* Estilos para el pie de página */
   footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f7f7f7;
-    margin-top: 20px;
+    padding: 0.5rem;
   }
   
-  /* Estilos para el texto del pie de página */
   footer p {
-    margin: 0;
-    font-size: 14px;
-    color: #333;
+    font-size: 0.75rem; /* 12px */
   }
-  
+}
