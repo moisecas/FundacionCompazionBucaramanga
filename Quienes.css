@@ -81,7 +81,7 @@ p {
 }
 
 /* Media query para ajustar el diseño en dispositivos más pequeños */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .por-que-escuela,
   .para-quien,
   .que-ofrece {
@@ -93,4 +93,24 @@ p {
   .seccion {
     width: 90%;
   }
+} */
+
+@media screen and (max-width: 768px) {
+  .por-que-escuela,
+  .para-quien,
+  .que-ofrece {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .seccion {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
 }
+
