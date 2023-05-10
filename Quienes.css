@@ -96,7 +96,7 @@ p {
   margin-bottom: 2rem;
 }
 
-h2, h3 {
+/* h2, h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   font-weight: bold;
@@ -106,7 +106,7 @@ h2, h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  }
+  } */
 
 /* Media query para ajustar el diseño en dispositivos más pequeños */
 /* @media screen and (max-width: 768px) {
