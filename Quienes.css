@@ -33,6 +33,21 @@ p {
   margin-left: 2%;
   margin-right: 2%;
 }
+.seccion h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.seccion p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+}
+
 
 .fraseprincipal {
   font-family: 'Playfair Display', serif;
@@ -80,6 +95,18 @@ p {
 .row:first-child {
   margin-bottom: 2rem;
 }
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  }
+  
+  p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  }
 
 /* Media query para ajustar el diseño en dispositivos más pequeños */
 /* @media screen and (max-width: 768px) {
