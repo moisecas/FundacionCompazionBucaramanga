@@ -35,6 +35,7 @@ p {
 }
 
 .fraseprincipal {
+  font-family: 'Playfair Display', serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
