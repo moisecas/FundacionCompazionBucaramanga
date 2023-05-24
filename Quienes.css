@@ -1,5 +1,8 @@
 /* Estilos generales */
 /* Estilos generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Noteworthy&display=swap');
+
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -50,7 +53,7 @@ p {
 
 
 .fraseprincipal {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Noteworthy', cursive !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
