@@ -93,7 +93,7 @@ h2 {
 
   /* Estilos para la navegación */
   .navbar {
-    background-color: #FFA07A !important;
+    background-color: FFAC33 !important; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
