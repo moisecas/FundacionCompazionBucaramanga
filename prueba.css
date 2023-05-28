@@ -17,6 +17,18 @@ header {
   transition: all 0.3s ease;
 }
 
+.evento {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Cambiamos "center" a "flex-start" para alinear arriba */
+  min-height: 300vh;
+  background-image: url('/Fondos.PNG'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300vh;
+  border-radius: 0 0 50px 50px; 
+}
 
 
 
@@ -56,7 +68,9 @@ h2 {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
+  margin-top: 10px !important;  
+
 }
 
 .event-title {
@@ -74,15 +88,9 @@ h2 {
 .event-description {
   font-size: 18px;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 
-  
-  
-  
- 
-  
-  
-  
   /* Estilos para la navegación */
   .navbar {
     background-color: #FFA07A !important;
@@ -128,9 +136,6 @@ h2 {
     background-color: #0077B6;
     padding: 20px; 
     display: flex;
-
-
-
   }
   
   .logo {
@@ -144,9 +149,7 @@ h2 {
     margin-top: 20px;
   }
 
-
-
-  .fondo {
+  /* .fondo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +161,7 @@ h2 {
     height: 300vh;
     border-radius: 0 0 50px 50px; 
   }
-  
+   */
   /* Estilos para el header en pantallas móviles */
 @media (max-width: 767px) {
   header {
@@ -205,6 +208,7 @@ h2 {
     margin: 5px 0;
   }
 } 
+
 
 
 
