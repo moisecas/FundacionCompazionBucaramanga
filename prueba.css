@@ -133,7 +133,7 @@ h2 {
   }
   
   .navbar-nav .nav-link:hover {
-    background-color: #dcdcdc;
+    background-color: #dcdcdc; 
   }
   
   /* Estilos para el fondo */
@@ -181,6 +181,18 @@ h2 {
   }
    */
   /* Estilos para el header en pantallas móviles */
+
+  .dropdown-item {
+    font-size: 14px;
+    font-weight: 500;
+    color: #52a3f5;   
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;     
+     
+  }
+
+
 @media (max-width: 767px) {
   header {
     flex-direction: column;
