@@ -17,17 +17,35 @@ header {
   transition: all 0.3s ease;
 }
 
+
+.cover{
+  background-image: url('/Fondos.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  border-radius: 0 0 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5px; 
+  
+}
+
 .evento {
   display: flex;
   justify-content: center;
   align-items: flex-start; /* Cambiamos "center" a "flex-start" para alinear arriba */
-  min-height: 300vh;
-  background-image: url('/Fondos.PNG'); 
+  min-height: 100vh;
+   
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 300vh;
   border-radius: 0 0 50px 50px; 
+  
 }
 
 
